@@ -1,0 +1,12 @@
+[package]
+name = "packet-core"
+version = "0.0.0"
+description = "The core functionality of the Packet framework."
+readme = "README.md"
+repository = "https://github.com/nikdeapen/packet-core"
+homepage = "https://github.com/nikdeapen/packet-core"
+authors = ["Nik Deapen <nik@deapen.com>"]
+edition = "2021"
+license = "MIT"
+
+[dependencies]
