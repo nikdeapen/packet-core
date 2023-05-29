@@ -1,5 +1,3 @@
-use std::fmt::{Display, Formatter};
-
 use crate::tree::TypeTag;
 
 /// A name with an associated type tag.
@@ -18,8 +16,16 @@ impl<S: Into<String>, T: Into<TypeTag>> From<(S, T)> for Variable {
     }
 }
 
-impl Display for Variable {
-    fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
-        write!(f, "{}: {}", self.name, self.tag)
+impl Variable {
+    //! Properties
+
+    /// Gets the name.
+    pub fn name(&self) -> &str {
+        self.name.as_str()
+    }
+
+    /// Gets the type tag.
+    pub fn tag(&self) -> &TypeTag {
+        &self.tag
     }
 }
