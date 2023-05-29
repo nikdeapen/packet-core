@@ -8,7 +8,7 @@ pub enum TypeTag {
     /// A Primitive Type
     Primitive(PrimitiveType),
 
-    /// A named type.
+    /// A Named Type
     Named(String),
 }
 
