@@ -1,0 +1,10 @@
+[package]
+name = "packet-core"
+version = "0.0.0"
+description = "This library provides common ProtoPacket schema patterns."
+readme = "README.md"
+repository = "https://github.com/nikdeapen/packet-core"
+homepage = "https://github.com/nikdeapen/packet-core"
+authors = ["Nik Deapen <nik@deapen.com>"]
+edition = "2024"
+license = "MIT"
